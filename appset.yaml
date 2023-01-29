@@ -1,5 +1,3 @@
-## DevOps K8 admin should apply this directly to the argocd namespace in the devops EKS cluster
-
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
