@@ -1,0 +1,19 @@
+name: testapp
+project: demo
+namespace: testapp
+values: |-
+  fullnameOverride: testapp
+  image:
+    repository: <container-image-registry>
+  namespace: testapp
+  containerPort: 8080
+  autoscaling:
+    enabled: true
+  ingress:
+    host: testapp
+  env:
+    enabled: false
+  lProbe:
+    enabled: false
+  rProbe:
+    enabled: false
